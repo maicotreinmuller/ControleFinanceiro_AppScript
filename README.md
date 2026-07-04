@@ -40,7 +40,7 @@ Todos os lançamentos ficam armazenados na aba **"Lançamentos"** da planilha, e
 | Ícones               | [Boxicons](https://boxicons.com/)                                            |
 | Hospedagem/Deploy    | Google Apps Script Web App (`doGet`) — gratuito, sem servidor próprio        |
 
-Não há dependências de `npm`, build tools ou frameworks de front-end — o projeto roda 100% dentro do ecossistema Google, o que simplifica a manutenção e elimina custos de infraestrutura.
+Não há dependências de `npm`, build tools ou frameworks de front-end o projeto roda 100% dentro do ecossistema Google, o que simplifica a manutenção e elimina custos de infraestrutura.
 
 ---
 
@@ -94,7 +94,7 @@ Não há dependências de `npm`, build tools ou frameworks de front-end — o pr
 ### 4. Adicione o `Dashboard.html`
 
 1. No editor do Apps Script, clique no ícone **+** ao lado de "Arquivos" → **HTML**.
-2. Nomeie o novo arquivo exatamente como **`Dashboard`** (sem extensão — o Apps Script adiciona `.html` automaticamente).
+2. Nomeie o novo arquivo exatamente como **`Dashboard`** (sem extensão, o Apps Script adiciona `.html` automaticamente).
 3. Apague o conteúdo padrão gerado e cole todo o conteúdo do arquivo **`Dashboard.html`** deste repositório.
 4. Salve o projeto (ícone de disquete ou `Ctrl+S`).
 
@@ -106,7 +106,7 @@ Não há dependências de `npm`, build tools ou frameworks de front-end — o pr
    - **Executar como:** *Eu (seu e-mail)*
    - **Quem pode acessar:** escolha conforme sua necessidade (*Apenas eu*, para uso pessoal, ou *Qualquer pessoa com uma Conta Google*, para compartilhar com terceiros)
 4. Clique em **Implantar**.
-5. Na primeira execução, o Google solicitará permissões — clique em **Autorizar acesso**, escolha sua conta e confirme (pode aparecer um aviso de "app não verificado"; clique em **Avançado → Acessar [nome do projeto] (não seguro)**, pois é o seu próprio script).
+5. Na primeira execução, o Google solicitará permissões, clique em **Autorizar acesso**, escolha sua conta e confirme (pode aparecer um aviso de "app não verificado"; clique em **Avançado → Acessar [nome do projeto] (não seguro)**, pois é o seu próprio script).
 6. Copie a **URL do app da Web** gerada. É por ela que você acessará o dashboard.
 
 ### 6. Primeira execução
@@ -144,7 +144,7 @@ Não há dependências de `npm`, build tools ou frameworks de front-end — o pr
 | B      | Despesas       |
 | C      | Investimentos  |
 
-> ⚠️ Não recomendamos editar essas abas manualmente com valores fora do padrão (ex.: digitar "Saída" na coluna Tipo) — sempre utilize a interface para lançar e editar registros, garantindo que o tipo seja gravado corretamente.
+> ⚠️ Não recomendamos editar essas abas manualmente com valores fora do padrão (ex.: digitar "Saída" na coluna Tipo), sempre utilize a interface para lançar e editar registros, garantindo que o tipo seja gravado corretamente.
 
 ---
 
@@ -168,7 +168,7 @@ Sempre que você alterar `Script.gs` ou `Dashboard.html` diretamente no editor d
 4. Em "Versão", selecione **Nova versão**.
 5. Clique em **Implantar**.
 
-> ⚠️ Simplesmente salvar o código **não** atualiza automaticamente uma implantação de Web App já publicada — é necessário criar uma nova versão, como descrito acima, para que as mudanças entrem em vigor na URL pública.
+> ⚠️ Simplesmente salvar o código **não** atualiza automaticamente uma implantação de Web App já publicada é necessário criar uma nova versão, como descrito acima, para que as mudanças entrem em vigor na URL pública.
 
 ---
 
