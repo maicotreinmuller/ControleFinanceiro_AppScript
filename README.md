@@ -8,9 +8,9 @@ Aplicação web de controle financeiro pessoal construída inteiramente sobre o 
 
 O projeto permite registrar, visualizar e gerenciar três tipos de movimentação financeira:
 
-- **Receitas** — entradas de dinheiro (salário, freelance, cashback etc.)
-- **Despesas** — saídas de dinheiro (contas, compras, assinaturas etc.)
-- **Investimentos** — aportes (entrada) e resgates/decréscimos (saída) em investimentos
+- **Receitas** entradas de dinheiro (salário, freelance, cashback etc.)
+- **Despesas** saídas de dinheiro (contas, compras, assinaturas etc.)
+- **Investimentos** aportes (entrada) e resgates/decréscimos (saída) em investimentos
 
 Todos os lançamentos ficam armazenados na aba **"Lançamentos"** da planilha, e as categorias de cada tipo ficam centralizadas na aba **"Categorias"**, ambas criadas e formatadas automaticamente pelo próprio script na primeira execução.
 
@@ -58,14 +58,14 @@ Não há dependências de `npm`, build tools ou frameworks de front-end o projet
 ### O que cada arquivo faz
 
 **`Script.gs`**
-- `onOpen()` — cria o menu "💲 Controle Financeiro" no Google Sheets
-- `inicializarPlanilha()` — garante a existência e formatação das abas `Lançamentos` e `Categorias`
-- `doGet(e)` — serve a aplicação como Web App
-- `getDados()` — lê e normaliza todos os lançamentos da planilha
-- `getCategorias()` — lê as categorias cadastradas por tipo
-- `salvarLancamento()` / `salvarLoteLancamentos()` — grava um ou vários lançamentos (parcelas) em lote
-- `editarLancamento()` / `excluirLancamento()` — edita/remove um lançamento existente
-- `salvarCategoriaGerenciada()` / `renomearCategoriaGerenciada()` / `excluirCategoriaGerenciada()` — CRUD de categorias
+- `onOpen()` → cria o menu "💲 Controle Financeiro" no Google Sheets
+- `inicializarPlanilha()` → garante a existência e formatação das abas `Lançamentos` e `Categorias`
+- `doGet(e)` → serve a aplicação como Web App
+- `getDados()` → lê e normaliza todos os lançamentos da planilha
+- `getCategorias()` → lê as categorias cadastradas por tipo
+- `salvarLancamento()` / `salvarLoteLancamentos()` → grava um ou vários lançamentos (parcelas) em lote
+- `editarLancamento()` / `excluirLancamento()` → edita/remove um lançamento existente
+- `salvarCategoriaGerenciada()` / `renomearCategoriaGerenciada()` / `excluirCategoriaGerenciada()` → CRUD de categorias
 
 **`Dashboard.html`**
 - Interface completa (HTML + CSS + JS embutido)
@@ -151,8 +151,8 @@ Não há dependências de `npm`, build tools ou frameworks de front-end o projet
 ## 🔐 Permissões necessárias
 
 O Apps Script solicitará acesso a:
-- **Google Sheets** — para ler e gravar os lançamentos e categorias
-- **Interface externa (Web App)** — para exibir o dashboard como aplicação independente
+- **Google Sheets** → para ler e gravar os lançamentos e categorias
+- **Interface externa (Web App)** → para exibir o dashboard como aplicação independente
 
 Nenhum dado é enviado a servidores de terceiros: tudo permanece dentro da sua conta Google.
 
