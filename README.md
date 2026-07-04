@@ -200,4 +200,4 @@ Sugestões, correções e melhorias são bem-vindas! Para contribuir:
 
 ---
 
-**Feito com 💲 e Google Apps Script.**
+**Feito com Google Apps Script.**
