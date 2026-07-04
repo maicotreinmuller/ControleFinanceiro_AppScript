@@ -1,4 +1,4 @@
-# 💲 Controle Financeiro — Dashboard para Google Sheets
+# Controle Financeiro — Google Sheets + AppScript
 
 Aplicação web de controle financeiro pessoal construída inteiramente sobre o **Google Sheets** e o **Google Apps Script**, sem necessidade de banco de dados externo, servidor ou custo de hospedagem. A planilha do usuário é o banco de dados; o Apps Script é o back-end; e uma interface HTML/CSS/JS moderna funciona como front-end, rodando tanto embutida no Google Sheets quanto publicada como Web App independente.
 
